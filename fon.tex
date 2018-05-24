@@ -1,0 +1,66 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+
+%\usepackage[a4paper, total={200mm, 200mm}]{geometry}
+%\usepackage[a4paper, portrait, margin=2in]{geometry}
+\usepackage{geometry}
+\geometry{
+	a4paper,
+	total={170mm,257mm},
+	left=10mm,
+	top=10mm,
+}
+
+\usepackage{fontspec}						% required to allow custom font use
+
+\usepackage{multicol}						% required for multiple columns
+\setlength{\columnsep}{1cm}					% column width
+
+\setmainfont{DINAlternate-Bold}				% PostScript name
+\fontsize{1in}{2in}\selectfont
+
+
+
+\title{DIN Testing Sheet}
+\author{Leigh Furby \thanks{produced by LDNiNK}}
+\date{May 2018}
+ 
+\begin{document} 
+\begin{titlepage}
+\maketitle
+\end{titlepage}
+
+
+
+
+%\fontname\font
+
+\fontsize{120}{140}\selectfont				% \fontsize{fontsize}{lineheight}\selectfont
+%\fontname\font								% prints the declared font
+
+
+\section{Uppercase at 120pt}
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+
+\section{Basic latin uppercase at 120pt}
+\fontsize{90}{120}\selectfont
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ð Ñ Ò Ó Ô Õ Ö Ø Ù Ú Û Ü Ý Þ ß Œ œ 
+
+\section{Lowercase at 120pt}
+a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã ä å æ ç è é ê ë ì í î ï ð ñ ò ó ô õ ö ø ù ú û ü ý þ ß œ œ 
+
+\section{Basic latin at 60pt}
+\fontsize{60}{120}\selectfont
+! " \# \$ \% \& ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] \^ \_ ` a b c d e f g h i j k l m n o p q r s t u v w x y z  { | } ~ ¡ ¢ £ ¤ ¥ ¦ § ¨ © ª « ¬ ­ ® ¯ ° ± ² ³ ´ µ ¶ · ¸ ¹ º » ¼ ½ ¾ ¿ À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ð Ñ Ò Ó Ô Õ Ö × Ø Ù Ú Û Ü Ý Þ ß Œ œ à á â ã ä å æ ç è é ê ë ì í î ï ð ñ ò ó ô õ ö ÷ ø ù ú û ü ý þ ÿ ı Œ œ ˆ ˚ ˜ – — ‘ ’ ‚ “ ” „ • … ‹ › ⁄ ⁴ € − ∕
+
+\section{Uppercase extended latin}
+\fontsize{60}{90}\selectfont	
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À À Á Â Ã Ā Ă Ȧ Ä Ả Å Ǎ Ȁ Ȃ Ą Ạ Ḁ Ầ Ấ Ẫ Ẩ Ằ Ắ Ẵ Ẳ Ǡ Ǟ Ǻ Ậ Ặ Ⱥ Ɑ Ɐ Ɒ Æ Ǽ Ǣ Ḃ Ɓ Ḅ Ḇ Ƃ Ƅ Ƀ Ć Ĉ Ċ Č Ƈ Ç Ḉ Ȼ Ḋ Ɗ Ḍ Ḏ Ḑ Ḓ Ď Ð Đ Ɖ Ƌ È É Ê Ẽ Ē Ĕ Ė Ë Ẻ Ě Ȅ Ȇ Ẹ Ȩ Ę Ḙ Ḛ Ề Ế Ễ Ể Ḕ Ḗ Ệ Ḝ Ǝ Ɇ Ɛ Ə Ḟ Ƒ Ǵ Ĝ Ḡ Ğ Ġ Ǧ Ɠ Ģ Ǥ Ĥ Ḧ Ȟ Ḥ Ḩ Ḫ Ħ Ⱨ Ⱶ Ƕ 
+
+\section{Lowercase extended latin}
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+
+
+
+
+\end{document}
